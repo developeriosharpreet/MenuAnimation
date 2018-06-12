@@ -12,6 +12,8 @@
 		8038F30620CFE02200A98C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038F30420CFE02200A98C4B /* Main.storyboard */; };
 		8038F30820CFE02200A98C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038F30720CFE02200A98C4B /* Assets.xcassets */; };
 		8038F30B20CFE02200A98C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8038F30920CFE02200A98C4B /* LaunchScreen.storyboard */; };
+		8038F31520CFE3DF00A98C4B /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038F31420CFE3DF00A98C4B /* RoundView.swift */; };
+		8038F31720CFEB7F00A98C4B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038F31620CFEB7F00A98C4B /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8038F30720CFE02200A98C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8038F30A20CFE02200A98C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8038F30C20CFE02200A98C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8038F31420CFE3DF00A98C4B /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		8038F31620CFEB7F00A98C4B /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				8038F30020CFE02200A98C4B /* AppDelegate.swift */,
+				8038F31620CFEB7F00A98C4B /* RoundButton.swift */,
+				8038F31420CFE3DF00A98C4B /* RoundView.swift */,
 				8038F30220CFE02200A98C4B /* ViewController.swift */,
 				8038F30420CFE02200A98C4B /* Main.storyboard */,
 				8038F30720CFE02200A98C4B /* Assets.xcassets */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8038F31720CFEB7F00A98C4B /* RoundButton.swift in Sources */,
 				8038F30320CFE02200A98C4B /* ViewController.swift in Sources */,
+				8038F31520CFE3DF00A98C4B /* RoundView.swift in Sources */,
 				8038F30120CFE02200A98C4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MenuAnimation
 //
-//  Created by Harpreet on 12/06/18.
+//  Created by Animators on 12/06/18.
 //  Copyright © 2018 Animators. All rights reserved.
 //
 
